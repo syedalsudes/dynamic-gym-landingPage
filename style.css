@@ -528,6 +528,7 @@ html {
 }
 
 
+
 @media (max-width: 768px) {
     .navbar ul {
         gap: 30px;
@@ -927,6 +928,19 @@ html {
         transform: translateY(-150px);
     }
 }
+
+
+
+@media (max-width: 375px) {
+
+    .navbar-flex {
+        display: flex;
+        gap: 240px;
+        margin-left: 10px;
+    }
+
+}
+
 
 
 @media (max-width: 320px) {
